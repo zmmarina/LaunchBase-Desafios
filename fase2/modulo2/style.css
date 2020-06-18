@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    background-color: rgb(248, 105, 48);
+    padding: 20px;
+    border-bottom: 5px dashed rgb(20, 190, 34);
+    text-align: center;
+}
+
+header .links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;    
+}
+
+header .links #phone{
+    background-image: url("https://image.flaticon.com/icons/png/512/817/817770.png");
+    background-size: cover;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-bottom: -15px; 
+    
+}
+
+header .links #mail{
+    background-image: url("https://image.flaticon.com/icons/svg/817/817776.svg");
+    background-size: cover;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-bottom: -15px; 
+    
+}
+
+header .links #videos{
+    background-image: url("https://image.flaticon.com/icons/png/512/817/817750.png");
+    background-size: cover;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-bottom: -15px; 
+    
+}
+
+header .links #about{
+    background-image: url("https://image.flaticon.com/icons/svg/817/817757.svg");
+    background-size: cover;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-bottom: -15px; 
+    
+}
+
+main{
+    margin-top: 50px;
+}
+
+main .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main .wrapper .content-wrapper h1{
+    color: orangered;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 60px;
+}
+
+main .wrapper .content-wrapper h2{
+    color: rgb(44, 133, 206);
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 35px;
+}
+
+main .wrapper .content-wrapper .text p{
+    font-family: 'Itim', cursive;
+}
+
+main .wrapper .content-wrapper .text .title{
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 20px;
+}
