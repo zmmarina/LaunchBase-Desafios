@@ -27,6 +27,11 @@ header .links #phone{
     
 }
 
+header .links #phone:hover{
+    filter: grayscale(90%);
+    
+}
+
 header .links #mail{
     background-image: url("https://image.flaticon.com/icons/svg/817/817776.svg");
     background-size: cover;
@@ -34,6 +39,11 @@ header .links #mail{
     width: 60px;
     height: 60px;
     margin-bottom: -15px; 
+    
+}
+
+header .links #mail:hover{
+    filter: grayscale(90%);
     
 }
 
@@ -47,6 +57,11 @@ header .links #videos{
     
 }
 
+header .links #videos:hover{
+    filter: grayscale(90%);
+      
+}
+
 header .links #about{
     background-image: url("https://image.flaticon.com/icons/svg/817/817757.svg");
     background-size: cover;
@@ -54,6 +69,11 @@ header .links #about{
     width: 60px;
     height: 60px;
     margin-bottom: -15px; 
+    
+}
+
+header .links #about:hover{
+    filter: grayscale(90%);
     
 }
 
@@ -81,12 +101,28 @@ main .wrapper .content-wrapper h2{
     margin-bottom: 35px;
 }
 
-main .wrapper .content-wrapper .text p{
+main .wrapper .content-wrapper .text{
     font-family: 'Itim', cursive;
+    font-size: 20px;
+    color: rgb(194, 16, 105);
+    border: 3px solid hotpink;
+    border-radius: 8px;
+    margin-right: 40px;
+    text-align: center;
 }
 
 main .wrapper .content-wrapper .text .title{
     font-size: 30px;
-    color: gray;
+    color: hotpink;
     margin-bottom: 20px;
+    margin-top: 20px;;
+}
+
+main .wrapper .content-wrapper .text p{
+    margin-bottom: 20px;
+}
+
+main .wrapper .content-wrapper .text ul{
+    margin-bottom: 30px;
+    list-style: none;
 }
