@@ -1,7 +1,7 @@
 <h1>LaunchBase-Dino for kids!</h1>
 <h2>Exercising HTML, CSS and JavaScript</h2>
 
-<p>Project developed to practice the content seen during the LauchBase bootcamp, by Rocketseat. Based on what I'm learning, I've created this project.</p>
+<p>Project developed to practice the content seen during the LauchBase bootcamp, by Rocketseat. Based on what I'm learning, I've created this project. All these icons belong to flaticon.com</p>
 
 ![dino](https://github.com/zmmarina/LaunchBase-Desafios/blob/master/Learning-for-Kids-Google-Chrome-2020-06-19-02-53-10.gif)
 
