@@ -3,7 +3,7 @@
 
 <p>Project developed to practice the content seen during the LauchBase bootcamp, by Rocketseat. Based on what I'm learning, I've created this project.</p>
 
-![] (Learning-for-Kids-Google-Chrome-2020-06-19-02-53-10.gif)
+!(Learning-for-Kids-Google-Chrome-2020-06-19-02-53-10.gif)
 
 
 <h2>Features</h2>
