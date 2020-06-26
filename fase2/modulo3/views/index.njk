@@ -1,24 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning for Kids</title>
-    <link rel="shortcut icon" href="https://image.flaticon.com/icons/svg/817/817776.svg" type="image/x-icon">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Itim&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="links">
-            <a id="phone" href="tel:+5581999266788"></a>               
-            <a id="mail" href="mailto:zmarina.mm@gmail.com"></a>
-            <a id="videos" href="videos.html"></a>
-            <a id="about" href="about.html"></a>
-         
-        </div>
-    </header>
+{% extends "layout.html" %}
+
+
+{% block content %}
+
     <main>
         <div class="wrapper">
             <div class="image-wrapper">
@@ -42,6 +26,4 @@
 
         </div>
     </main>
-    
-</body>
-</html>
+{% endblock %}  
