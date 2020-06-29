@@ -10,21 +10,24 @@ module.exports = [
         id: "9Ey7RT9S_xE",
         title: "Ten little dinos! | Cocomelon", 
         duration: "35 min",
-        price:"Free"
+        price:"Free",
+        featured: true
     },
 
     {
         id: "zk5HGN8JXXk",
         title: "Here comes the Firetruck! | Super Simple Songs", 
         duration: "31 min",
-        price:"Free"
+        price:"Free",
+        featured: true
     },
 
     {
         id: "TqfMHH67KJA",
         title: "Sweet dreams! | Super Simple Songs", 
         duration: "50 min",
-        price:"Free"
+        price:"Free",
+        featured: true
     },
 
     {

@@ -30,3 +30,7 @@ server.get("/about", function(req, res){
 server.get("/videos", function(req, res){
     return res.render("videos", { items : videos })
 })
+
+server.get("/video", function (req, res){
+    
+})

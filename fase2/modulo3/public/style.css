@@ -238,3 +238,21 @@ iframe{
     position: absolute;
     top: 5%;
 }
+
+/*=== FEATURED ===*/
+
+.featured-wrapper.card__image-container{
+    position: relative;
+}
+
+.featured{
+    position: absolute;
+    left: 5px;
+    background-color: rgb(87, 10, 87);
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 14px;
+    color:white;
+    padding: 2px 8px;
+    border-radius: 10px;
+    top: -6px
+}
